@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/f982cb96d4/UntitledProject/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Inicio | Nito</title>
+    <!-- nito.zooka.io/demo4/ -->
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header__container">
+            <div class="main-logo">
+                <img class="main-logo__image" src="img/logo-white.png" alt="Logo">
+            </div>
+            <div id="btnBar" class="main-barmenu">
+                <img src="img/bar-menu.png" alt="Menu Bar"></div>
+            <div id="containerMenu" class="main-header__menu-socialnetwork">
+                <nav class="main-menu">
+                    <ul class="main-nav">
+                        <li class="main-nav__list"><a href="#">Sobre Nosotros</a></li>
+                        <li class="main-nav__list"><a href="#">Servicios</a></li>
+                        <li class="main-nav__list"><a href="#">Contactenos</a></li>
+                    </ul>
+                </nav>
+                <div class="main-socialnetwork">
+                        <span class="icon-facebook"></span>
+                        <span class="icon-instagram"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- banner -->
+    <section class="main-banner">
+        <div class="main-banner__container">
+            <div class="banner__data">
+                <h3>Lovely Flowers Shop</h3>
+                <h1>A PERFECT BOUQUET</h1>
+                <p>We are a retail florist and floral design studio. We create custom florals for the everyday and those special days.</p>
+                <a class="banner__btn-readme" href="#">Gallery</a>
+            </div>
+        </div>
+    </section>
+    <!-- introduction -->
+    <section class="main-introduction">
+        <div class="main-introduction__container">
+            <div class="introduction__detalle">
+                <p class="subtitle">INTRODUCTION</p>
+                <h1>A true design that catches </br> attention from every eyes.</h1>
+                <p class="introduction__text">We tend to create a great design to catch the attention from viewers. Of course, our design team is constructed by professionals with long experience and good skills</p>
+                <div class="introduction__btn">
+                    <a href="#">Explore</a>
+                </div>
+            </div>
+            <div class="introduction__image">
+                <img src="http://nito.zooka.io/demo4/wp-content/uploads/2016/10/flower1.jpg" alt="Image Introduction">
+            </div>
+        </div>
+    </section>
+    <section class="main-products">
+        <div class="main-products__container">
+            <div class="products__header">
+                <p class="subtitle">OUR PRODUCTS</p>
+                <h1>You can buy your favourites, in on go.</h1>
+            </div>
+            <div class="products__body">
+                <figure class="products__item-image">
+                    <img src="http://nito.zooka.io/demo4/wp-content/uploads/2016/10/12938097_606135622877551_1245970456176957116_n-370x370.jpg" alt="1">
+                    <figcaption>Butterfly Weed</figcaption>
+                    <span></span>
+                </figure>
+                <figure class="products__item-image">
+                    <img src="http://nito.zooka.io/demo4/wp-content/uploads/2016/10/photo-1453372755486-254d0e724b38-370x370.jpg" alt="2">                        
+                    <figcaption>Butterfly Bells</figcaption>
+                </figure>
+                <figure class="products__item-image">
+                    <img src="http://nito.zooka.io/demo4/wp-content/uploads/2016/10/12933114_605288579628922_8817884552968841353_n-370x370.jpg" alt="3">
+                    <figcaption>Butterfly Flower</figcaption>
+                    <span></span>
+                </figure>
+                <figure class="products__item-image">
+                    <img src="http://nito.zooka.io/demo4/wp-content/uploads/2016/10/photo-1453372755486-254d0e724b38-370x370.jpg" alt="4">
+                    <figcaption>Butterfly Weed</figcaption>
+                </figure>
+            </div>
+            <div class="products__more">
+                <a href="#">visualiza todos los productos</a>
+            </div>
+        </div>
+    </section>
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+    <script>
+        $('#btnBar').click(function(){
+            // alert('hola');
+            // $('#containerMenu').slideToggle();
+            $('#containerMenu').toggleClass('display');
+        })
+    </script>
+</body>
+</html>
